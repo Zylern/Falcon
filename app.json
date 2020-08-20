@@ -38,7 +38,11 @@
       "description": "need for .lyrics comand , Get your own api token from https://genius.com/developers (you can also use your API.)",      
        "value": "GD7po3dtuhCu3hioqYe-YzqjRdmKHcmW1tMAe-Q3sRS58x-vmgX9JyFIePsW5Gjh",
        "required": false
-      
+    },
+    "VTOTAL_API": {
+      "description": "Needed for Virus scanning plugin. Get your api from https://virustotal.con/",
+      "value": "",
+      "required": false
     },
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
