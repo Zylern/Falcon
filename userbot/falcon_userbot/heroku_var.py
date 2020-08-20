@@ -25,7 +25,7 @@ class config(object):
     OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
-    GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
+    GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
     WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
     AFK_MESSAGE = os.environ.get("AFK_MESSAGE", None)
