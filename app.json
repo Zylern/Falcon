@@ -35,8 +35,8 @@
       
     },
     "GENIUS_API_TOKEN": {
-      "description": "need for .lyrics comand , Get your own api token from https://genius.com/developers",      
-       "value": "Enter genius api here if you need ",
+      "description": "need for .lyrics comand , Get your own api token from https://genius.com/developers (you can also use your API.)",      
+       "value": "GD7po3dtuhCu3hioqYe-YzqjRdmKHcmW1tMAe-Q3sRS58x-vmgX9JyFIePsW5Gjh",
        "required": false
       
     },
@@ -62,8 +62,8 @@
      
     },
     "OPEN_WEATHER_MAP_APPID": {
-      "description": "need for .weather command, (API key)from https://api.openweathermap.org",
-      "value": "Enter api here if you need ",
+      "description": "need for .weather command, (API key)from https://api.openweathermap.org (if you have api enter your or leave it default.)",
+      "value": "346020614934a3d9332d25c70c6eba4a",
       "required": false
        
     },
@@ -81,12 +81,6 @@
       "description": "BOTLOG_CHATID must be filled correct if you set it true",
       "value": "False",
       "required": false
-      
-    },
-    "PM_PROTECTOR": {
-      "description": "Prevent unknown people to spam your pm , type .allow to allow them to pm",
-      "value": "true",
-      "required": false
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .youtube command. Get from https://console.cloud.google.com",
@@ -94,13 +88,13 @@
       "required": false
     },
     "OCR_SPACE_API_KEY": {
-      "description": "OCR API Key for .read (read photo's text)command. Get from https://ocr.space/ocrapi",
-      "value": "Enter api here if you need ",
+      "description": "OCR API Key for .read (read photo's text)command. Get from https://ocr.space/ocrapi (if you have api enter your or leave it default.)",
+      "value": "59d6dc729288957",
       "required": false
     },
     "REM_BG_API_KEY": {
       "description": "API Key for .rbg(remove background picture) command. Get from https://www.remove.bg/api",
-      "value": "Enter api here if you need ",
+      "value": "",
       "required": false
     },
     "TMP_DOWNLOAD_DIRECTORY": {
