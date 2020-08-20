@@ -164,11 +164,14 @@
       "required": false
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-      }
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
     }
-  ]
+  }],
+  "buildpacks": [{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  }]
 }
