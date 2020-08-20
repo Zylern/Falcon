@@ -33,12 +33,11 @@
       "description": "enter this app name agin here, very inportant for .update comand to make falcon up-to-date ,",
       "value": ""
       
-     },
+    },
     "GENIUS_API_TOKEN": {
       "description": "need for .lyrics comand , Get your own api token from https://genius.com/developers",      
        "value": "Enter genius api here if you need ",
        "required": false
-      
       
     },
     "COUNTRY": {
@@ -52,7 +51,7 @@
       "required": false
     },
     "FULL_SUDO": {
-      "description": "Enter your telegram ID here.",
+      "description": "if you set it true sudo users can access your full datas ",
       "value": "",
       "required": false
     },
@@ -61,8 +60,6 @@
       "value": "https://telegra.ph/file/edc2836f4353c6b01bcb4.jpg",
       "required": false
      
-    
-    
     },
     "OPEN_WEATHER_MAP_APPID": {
       "description": "need for .weather command, (API key)from https://api.openweathermap.org",
@@ -106,16 +103,6 @@
       "value": "Enter api here if you need ",
       "required": false
     },
-    "ANTI_SPAMBOT": {
-      "description": "BOTLOG_CHATID must be filled correct if you set it true",
-      "value": "False",
-      "required": false
-    },
-    "ANTI_SPAMBOT_SHOUT": {
-      "description": "BOTLOG_CHATID must be filled correct if you set it true",
-      "value": "False",
-      "required": false
-    },
     "TMP_DOWNLOAD_DIRECTORY": {
       "description": "for use GDrive, .download etc..)",
       "value": "./downloads/",
@@ -124,37 +111,26 @@
     "CLEAN_WELCOME": {
       "description": "When a new person joins, the old welcome message is deleted.",
       "value": "True",
-      "required": false
-          
-      },
-    "ALIVE_S_MESSAGE": {
-      "description": "Edit if you want",
-      "value": "I am Alive Master!!",
-      "required": false
+      "required": false 
       
-      },
-    "ALIVE_E_MESSAGE": {
-      "description": "It will be shown in alive meage.",
-      "value": "Databases functioning normally!!",
-      "required": false
-      
-      },
+    },
     "BIO_MESSAGE": {
       "description": "custom bio message while u using .autobio command",
       "value": "Current date",
       "required": false
       
-      },
-    "FALCON_NAME": {
-      "description": "You can edit bot's name",
-      "value": "Falcon ",
-      "required": false
-    
     },
     "PM_MESSAGE": {
       "description": "you can edit what pm_protecter message!",
       "value": "Hey buddy drop your message and donot spam.",
       "required": false
+      
+    },
+    "SUDO_USERS": {
+      "description": "Enter your telegram user ID.",
+      "value": "",
+      "required": false
+            
       
     },
     "AFK_MESSAGE": {
