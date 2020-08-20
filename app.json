@@ -40,7 +40,17 @@
        "required": false
       
     },
-    "COUNTRY": {
+    "CHROME_BIN": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+     },
+     "COUNTRY": {
       "description": "Set your Country to be used in the .time and .date commands.",
       "value": "India",
       "required": false
