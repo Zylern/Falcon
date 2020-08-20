@@ -43,16 +43,11 @@ OPEN_WEATHER_MAP_APPID = config.OPEN_WEATHER_MAP_APPID
 WEATHER_DEFCITY = config.WEATHER_DEFCITY
 LYDIA_API_KEY = config.LYDIA_API_KEY
 PM_MESSAGE = config.PM_MESSAGE
-FALCON_NAME = config.FALCON_NAME
-ANTI_SPAMBOT = config.ANTI_SPAMBOT
-ANTI_SPAMBOT_SHOUT = config.ANTI_SPAMBOT_SHOUT
 YOUTUBE_API_KEY = config.YOUTUBE_API_KEY
 ALIVE_NAME = config.ALIVE_NAME
 BLOCK_MESSAGE = config.BLOCK_MESSAGE
 AFK_MESSAGE = config.AFK_MESSAGE
-ALIVE_S_MESSAGE = config.ALIVE_S_MESSAGE
 BIO_MESSAGE = config.BIO_MESSAGE
-ALIVE_E_MESSAGE = config.ALIVE_E_MESSAGE
 COUNTRY = config.COUNTRY
 TZ_NUMBER = config.TZ_NUMBER
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
@@ -71,14 +66,10 @@ TEMP_DOWNLOAD_DIRECTORY = config.TEMP_DOWNLOAD_DIRECTORY
     
 from userbot import ALIVE_NAME
 from userbot import DEFAULTUSER
-FALCON_MSG = (f"Falcon ")
 ORI_MSG = (f"Hey buddy drop your message and donot spam.")
 BLOCK_MSG = (f"I am not going to allow you to spam {DEFAULTUSER}'s PM, You have been blocked ")
-FALCON_NNAME = str(FALCON_NAME) if FALCON_NAME else str(FALCON_MSG)
 AFK_MSG = (f"Hey Buddy i am offline now, i will contact you later.")
 BIO_MSG = (f"")
-ALIVE_S_MSG = (f"Iam Alive Master!!")
-ALIVE_E_MSG = (f"Databases functioning normally!! ")
 
 if not os.path.exists('bin'):
     os.mkdir('bin')
