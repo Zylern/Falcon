@@ -34,7 +34,7 @@ class config(object):
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
     DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
-    PM_AUTO_BAN = sb(os.environ.get("PM_PROTECTOR", "True"))
+    PM_AUTO_BAN = sb(os.environ.get("PM_PROTECTOR", "False"))
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY","./downloads")
     LOGGER = True
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
