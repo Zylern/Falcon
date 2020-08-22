@@ -64,11 +64,6 @@
       "value": "1",
       "required": false
     },
-    "FULL_SUDO": {
-      "description": "if you set it true sudo users can access your full datas ",
-      "value": "",
-      "required": false
-    },
     "PROFILE_PP": {
       "description": "Your photo link for .autopic command",
       "value": "https://telegra.ph/file/edc2836f4353c6b01bcb4.jpg",
@@ -132,13 +127,6 @@
       "description": "you can edit what pm_protecter message!",
       "value": "Hey buddy drop your message and donot spam.",
       "required": false
-      
-    },
-    "SUDO_USERS": {
-      "description": "Enter your telegram user ID.",
-      "value": "",
-      "required": false
-            
       
     },
     "AFK_MESSAGE": {
