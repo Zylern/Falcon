@@ -102,7 +102,7 @@
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .youtube command. Get from https://console.cloud.google.com",
-      "value": "Enter api here if you need ",
+      "value": "",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
@@ -159,14 +159,14 @@
       },
     "LYDIA_API_KEY": {
       "description": "need for auto replay (lydia) future get api key from https://coffeehouse.intellivoid.net/",
-      "value": "enter lydia api key here",
+      "value": "",
       "required": false
       
     
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's .weather module.",
-      "value": "enter your city ",
+      "value": "enter your city name",
       "required": false
     },
     "LOGSPAMMER": {
