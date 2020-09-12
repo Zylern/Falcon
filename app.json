@@ -111,7 +111,7 @@
       "required": false
     },
     "REM_BG_API_KEY": {
-      "description": "API Key for .rbg(remove background picture) command. Get from https://www.remove.bg/api",
+      "description": "Required for .removebg command. Get from https://www.remove.bg/api",
       "value": "",
       "required": false
     },
