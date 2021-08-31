@@ -61,6 +61,7 @@ RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 RUN mv userbot/falcon_userbot/extra/apktool /usr/local/bin
 RUN mv userbot/falcon_userbot/extra/apktool.jar /usr/local/bin
+COPY requirements.txt .
 #RUN mv userbot/falcon_userbot/extra/apk.rb /usr/share/metasploit-framework/lib/msf/core/payload
 RUN chmod +x /usr/local/bin/*
 RUN python3 -m pip install --no-warn-script-location --no-cache-dir --upgrade -r requirements.txt
